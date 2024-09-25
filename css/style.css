@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+body {
+    font-family: "Roboto", serif;
+}
+
+
 header > div:nth-child(1) {
     height: 63px;
     display: flex;
@@ -34,7 +39,6 @@ header > div:nth-child(2) {
         width: 108px;
         background-color: transparent;
         border: 0;
-        font-family: "Roboto", serif;
         font-family: 500;
         font-size: 16px;
     }
@@ -45,6 +49,33 @@ header > div:nth-child(2) {
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+}
+
+
+main {
+    section:nth-child(1) {
+        padding: 25px 0;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 25px;
+        }
+
+        a {
+            padding: 13px 19px;
+            color: white;
+            border-radius: 25px;
+            background-image: linear-gradient(to top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        }
+
+        a:hover {
+            opacity: 85%;
+        }
+    }
 }
 
 
